@@ -1,0 +1,17 @@
+<tr (click)="toggleChild()">
+
+
+    <td>healthcaredatass.BatchID</td>
+
+    
+    <td>BID0001</td>
+    <td>4 insurances</td>
+    <td>13/06/2017</td>
+    <td>10</td>
+    <td>02</td>
+    <td>Jennifer Brewer</td>
+    <td>Partner 1</td>
+  </tr>
+<tr>
+  <app-childtable *ngIf="showVar"></app-childtable>
+</tr>

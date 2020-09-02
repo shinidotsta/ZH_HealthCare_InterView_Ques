@@ -1,0 +1,16 @@
+#myTabContentMD
+{
+    background-color: #B3CFDD;
+}
+.nav-item a{
+    color: black;
+    font-weight: 400;
+}
+.nav-item a :hover{
+    color: blue;
+    font-weight: 400;
+}
+#myTabtwo li a{
+    color: black;
+    font-weight: bold;   
+}
